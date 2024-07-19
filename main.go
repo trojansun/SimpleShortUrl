@@ -3,12 +3,12 @@ package main
 import (
 	"database/sql"
 	"fmt"
-	"log"
-	"os"
-
 	"github.com/BurntSushi/toml"
 	"github.com/gin-gonic/gin"
+	_ "github.com/mattn/go-sqlite3"
 	"github.com/spf13/cobra"
+	"log"
+	"os"
 )
 
 // Config stores the application configuration
